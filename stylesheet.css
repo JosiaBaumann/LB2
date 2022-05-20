@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+header nav li {
+    display: inline-block;
+    text-decoration: none;
+}
+footer li {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+}
+header {
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+
+}
+main {
+    background-color: lightcoral;
+}
+footer {
+    background-color: lightgreen;
+}
