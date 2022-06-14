@@ -1,0 +1,15 @@
+* {
+    background-color: transparent
+;
+}
+footer {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+li {
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    text-align: center;
+}
