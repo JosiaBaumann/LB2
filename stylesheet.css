@@ -1,23 +1,64 @@
 * {
-    background-color: transparent
-;
+    background-color: transparent;
 }
-footer {
-    display: flex;
-    text-align: center;
-    align-items: center;
+header {
+    background-color: black !important;
+    padding: 2rem;
 }
 li {
     list-style: none;
     text-decoration: none;
     display: inline;
+    align-items: center;
+    text-align: center;
+    color: white !important;
+}
+ul {
+    display: inline-block;
+    align-items: center;
     text-align: center;
 }
-ul.navbar-nav mr-auto{
-    display: flex;
-    justify-content: space-between;
-}
-div#navbarSupportedContent{
+footer#footer {
+    background-color: black !important;
     display: flex !important;
-    justify-content: flex-end !important;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+}
+div.bildgalerie {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+.dropdown-menu {
+    background-color: lightgreen !important;
+}
+main {
+    background-image: url("bilder/blaetter.jpg");
+    background-size: 110%;
+    color: white;
+}
+.card {
+    background-color: transparent !important;
+    border: none !important;
+}
+.jumbotron {
+    background-color: transparent !important;
+    border: none !important;
+}
+.my-4 {
+    border: none !important;
+}
+a:link {
+    color: black;
+}
+footer a:hover{
+    color: rgba(0,0,0,.5);
+    text-decoration: none;
+}
+a {
+    color: white !important;
 }
