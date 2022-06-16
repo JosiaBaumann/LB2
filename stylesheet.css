@@ -13,3 +13,11 @@ li {
     display: inline;
     text-align: center;
 }
+ul.navbar-nav mr-auto{
+    display: flex;
+    justify-content: space-between;
+}
+div#navbarSupportedContent{
+    display: flex !important;
+    justify-content: flex-end !important;
+}
