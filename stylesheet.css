@@ -25,6 +25,7 @@ footer#footer {
     text-align: center;
     align-items: center;
     color: white;
+    padding: 0.75rem;
 }
 }
 div.bildgalerie {
@@ -34,7 +35,7 @@ div.bildgalerie {
     margin: 0;
 }
 .dropdown-menu {
-    background-color: lightgreen !important;
+    background-color: #131313 !important;
 }
 main {
     background-image: url("bilder/blaetter.jpg");
@@ -55,12 +56,16 @@ main {
 a:link {
     color: black;
 }
-footer a:hover{
-    color: rgba(0,0,0,.5);
-    text-decoration: none;
+a:hover{
+    color: lightgrey !important;
+    text-decoration: none !important;
 }
 a {
     color: white !important;
+}
+a:active {
+    color: lightgrey !important;
+    background-color: transparent;
 }
 .costumbreak {
     display: none;
@@ -69,4 +74,12 @@ a {
     .costumbreak {
         display: block;
     }
+}
+.btn-primary {
+    background-color: #131313 !important;
+    border-color: #131313 !important;
+}
+button.navbar-toggler {
+    color: black !important;
+    border-color: white;
 }
