@@ -17,8 +17,10 @@ ul {
     display: inline-block;
     align-items: center;
     text-align: center;
+    padding-inline-start: 0!important;
+    margin: 0!important;
 }
-footer#footer {
+footer {
     background-color: black !important;
     display: flex !important;
     justify-content: center;
@@ -80,6 +82,15 @@ a:active {
     border-color: #131313 !important;
 }
 button.navbar-toggler {
-    color: black !important;
+    color: #ffffff !important;
     border-color: white;
+}
+
+.navbar-toggler{
+    color: white!important;
+    background-color: white!important;
+}
+
+.dropdown-item{
+    background-color: #131313!important;
 }
