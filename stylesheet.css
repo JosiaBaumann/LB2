@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
 * {
     background-color: transparent;
 }
@@ -11,7 +12,7 @@ li {
     display: inline;
     align-items: center;
     text-align: center;
-    color: white !important;
+    color: lightgrey !important;
 }
 ul {
     display: inline-block;
@@ -55,15 +56,12 @@ main {
 .my-4 {
     border: none !important;
 }
-a:link {
-    color: black;
-}
 a:hover{
-    color: lightgrey !important;
+    color: white !important;
     text-decoration: none !important;
 }
 a {
-    color: white !important;
+    color: lightgrey !important;
 }
 a:active {
     color: lightgrey !important;
@@ -82,15 +80,34 @@ a:active {
     border-color: #131313 !important;
 }
 button.navbar-toggler {
-    color: #ffffff !important;
     border-color: white;
 }
 
 .navbar-toggler{
-    color: white!important;
-    background-color: white!important;
 }
 
 .dropdown-item{
     background-color: #131313!important;
+}
+.active {
+    color: white !important;
+    background-color: transparent;
+}
+.display-4 {
+    font-family:Amarante;
+    -webkit-text-fill-color:transparent;
+    -webkit-text-stroke:1.5px white;
+    font-size: 5rem!important;
+}
+body {
+    font-size: 1.5rem !important;
+}
+.bildgalerie {
+    font-size: 1rem !important;
+}
+footer {
+    font-size: 1rem !important;
+}
+header {
+    font-size: 1rem !important;
 }
