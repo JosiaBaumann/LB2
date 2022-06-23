@@ -111,3 +111,7 @@ footer {
 header {
     font-size: 1rem !important;
 }
+form {
+    padding: 2rem;
+    padding-right: 15rem;
+}
