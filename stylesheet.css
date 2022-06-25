@@ -74,6 +74,11 @@ a:active {
     .costumbreak {
         display: block;
     }
+    main {
+        background-image: url("bilder/blaetter.jpg");
+        background-size: 250%;
+        color: white;
+    }
 }
 .btn-primary {
     background-color: #131313 !important;
@@ -114,4 +119,21 @@ header {
 form {
     padding: 2rem;
     padding-right: 15rem;
+}
+.knopf {
+    display: flex !important;
+    justify-content: right !important;
+}
+.schriftzug {
+    font-size: 1rem;
+}
+video#myVideo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.zentriert {
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
