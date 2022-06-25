@@ -42,7 +42,7 @@ div.bildgalerie {
 }
 main {
     background-image: url("bilder/blaetter.jpg");
-    background-size: 110%;
+    background-size: 120%;
     color: white;
 }
 .card {
